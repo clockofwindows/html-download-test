@@ -1,0 +1,1 @@
+x=msgbox("Windows has detected that you are a fish.", 0+48, "Microsoft Windows")

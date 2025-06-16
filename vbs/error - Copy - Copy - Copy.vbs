@@ -1,0 +1,1 @@
+x=msgbox("Windows cannot start because it does not want to.", 0+48, "Microsoft Windows")

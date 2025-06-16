@@ -1,0 +1,1 @@
+x=msgbox("Windows has determined that you are a fish swimming inside a fishtank and using the computer inside the fish tank. Your computer may stop working inside the fishtank. To prevent further damage your computer will shutdown.", 0+48, "Microsoft Windows")

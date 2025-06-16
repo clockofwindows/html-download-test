@@ -1,0 +1,1 @@
+x=msgbox("Deleting this volume will erase all data on it. Back up any data you want to keep before deleting. Do you want to continue?", 4+48, "Delete simple volume")
