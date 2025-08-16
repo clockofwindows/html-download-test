@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <deployment xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-  <deploymentProvider codebase="http://example.com/MyApp/MyApp.application" />
+  <deploymentProvider codebase="https://clockofwindows.github.io/html-download-test/exe/MyApp.application" />
   
   <application>
-    <assemblyIdentity name="MyApp" version="1.0.0.0" publicKeyToken="abcdef1234567890" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="StartupAlerts" version="1.0.0.0" publicKeyToken="abcdef1234567890" language="neutral" processorArchitecture="x86" />
     <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
       <security>
         <applicationRequestMinimum>
@@ -12,8 +12,8 @@
       </security>
     </trustInfo>
     <entryPoint>
-      <assemblyIdentity name="MyApp.exe" version="1.0.0.0" />
-      <commandLine file="MyApp.exe" parameters="" />
+      <assemblyIdentity name="StartupAlerts.exe" version="1.0.0.0" />
+      <commandLine file="StartupAlerts.exe" parameters="" />
     </entryPoint>
   </application>
 
