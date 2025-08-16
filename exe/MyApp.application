@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<deployment xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+  <deploymentProvider codebase="http://example.com/MyApp/MyApp.application" />
+  
+  <application>
+    <assemblyIdentity name="MyApp" version="1.0.0.0" publicKeyToken="abcdef1234567890" language="neutral" processorArchitecture="x86" />
+    <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+      <security>
+        <applicationRequestMinimum>
+          <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" />
+        </applicationRequestMinimum>
+      </security>
+    </trustInfo>
+    <entryPoint>
+      <assemblyIdentity name="MyApp.exe" version="1.0.0.0" />
+      <commandLine file="MyApp.exe" parameters="" />
+    </entryPoint>
+  </application>
+
+  <update>
+    <enabled>true</enabled>
+    <frequency>1</frequency>
+    <unit>days</unit>
+  </update>
+
+  <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
+    <framework targetVersion="4.7.2" />
+  </compatibleFrameworks>
+</deployment>
